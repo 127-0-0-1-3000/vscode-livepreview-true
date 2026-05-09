@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v7.2.0/css/all.css">
+    <script>
+        const head = document.querySelector("head");
+        if (!head) throw new Error("head does not exist");
+        if ("production" === "development") {
+            const scriptReactDevTools = document.createElement("script");
+            scriptReactDevTools.src = "http://localhost:8097"
+            head.appendChild(scriptReactDevTools);
+        }
+        const thisScript = document.currentScript;
+        thisScript.remove();
+    </script>
+  <script type="module" crossorigin src="./assets/index-ChE4VZws.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Db-sUJp_.css">
+</head>
+<body>  
+</body>
+</html>
